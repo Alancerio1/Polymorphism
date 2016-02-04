@@ -15,16 +15,11 @@ public class Start {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Name n = new John();
+        Name n = new Mike();
+        
+        n.setfName();
+        n.setlName();
 
-        Name[] names = new Name[2];
-        names[0] = new John();
-        names[1] = new Mike();
-
-        for (int i = 0; i < names.length; i++) {
-            names[i].setfName();
-            names[i].setlName();
-        }
 
     }
 
